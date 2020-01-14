@@ -12,6 +12,7 @@ for number in numbers_1_to_10:
     if number in my_randoms:
         the_numbers_match = True
     
-    if the_numbers_match == True:
+    if the_numbers_match:
         print(f'{number} is in the random list')
+    else: print(f'{number} is not on the list')
     
